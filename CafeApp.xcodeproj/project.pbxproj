@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DAC82C862A29A7CE002C68CC /* CafeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82C852A29A7CE002C68CC /* CafeAppApp.swift */; };
-		DAC82C882A29A7CE002C68CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82C872A29A7CE002C68CC /* ContentView.swift */; };
+		DAC82C882A29A7CE002C68CC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82C872A29A7CE002C68CC /* MainTabView.swift */; };
 		DAC82C8A2A29A7CF002C68CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC82C892A29A7CF002C68CC /* Assets.xcassets */; };
 		DAC82C8D2A29A7CF002C68CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC82C8C2A29A7CF002C68CC /* Preview Assets.xcassets */; };
 		DAC82C972A29A7CF002C68CC /* CafeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82C962A29A7CF002C68CC /* CafeAppTests.swift */; };
 		DAC82CA12A29A7CF002C68CC /* CafeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82CA02A29A7CF002C68CC /* CafeAppUITests.swift */; };
 		DAC82CA32A29A7CF002C68CC /* CafeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82CA22A29A7CF002C68CC /* CafeAppUITestsLaunchTests.swift */; };
+		DAC82CB52A29B048002C68CC /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82CB42A29B048002C68CC /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		DAC82C822A29A7CE002C68CC /* CafeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC82C852A29A7CE002C68CC /* CafeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAppApp.swift; sourceTree = "<group>"; };
-		DAC82C872A29A7CE002C68CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAC82C872A29A7CE002C68CC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		DAC82C892A29A7CF002C68CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC82C8C2A29A7CF002C68CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAC82C922A29A7CF002C68CC /* CafeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		DAC82C9C2A29A7CF002C68CC /* CafeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC82CA02A29A7CF002C68CC /* CafeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAppUITests.swift; sourceTree = "<group>"; };
 		DAC82CA22A29A7CF002C68CC /* CafeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAC82CB42A29B048002C68CC /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				DAC82C852A29A7CE002C68CC /* CafeAppApp.swift */,
-				DAC82C872A29A7CE002C68CC /* ContentView.swift */,
+				DAC82CAF2A29B002002C68CC /* Screens */,
 				DAC82C892A29A7CF002C68CC /* Assets.xcassets */,
 				DAC82C8B2A29A7CF002C68CC /* Preview Content */,
 			);
@@ -125,6 +127,39 @@
 				DAC82CA22A29A7CF002C68CC /* CafeAppUITestsLaunchTests.swift */,
 			);
 			path = CafeAppUITests;
+			sourceTree = "<group>";
+		};
+		DAC82CAF2A29B002002C68CC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DAC82CB02A29B013002C68CC /* Tab */,
+				DAC82CB12A29B019002C68CC /* Home */,
+				DAC82CB22A29B023002C68CC /* Other */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DAC82CB02A29B013002C68CC /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				DAC82C872A29A7CE002C68CC /* MainTabView.swift */,
+				DAC82CB42A29B048002C68CC /* Tab.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		DAC82CB12A29B019002C68CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DAC82CB22A29B023002C68CC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC82C882A29A7CE002C68CC /* ContentView.swift in Sources */,
+				DAC82CB52A29B048002C68CC /* Tab.swift in Sources */,
+				DAC82C882A29A7CE002C68CC /* MainTabView.swift in Sources */,
 				DAC82C862A29A7CE002C68CC /* CafeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +461,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +491,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
