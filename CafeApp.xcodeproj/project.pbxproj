@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DA1132CA2A31AFFE0002CB21 /* MenuSuggestionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1132C92A31AFFE0002CB21 /* MenuSuggestionSectionView.swift */; };
 		DA1132CC2A31B05E0002CB21 /* CoffeeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1132CB2A31B05E0002CB21 /* CoffeeMenu.swift */; };
+		DA1132CE2A31B2410002CB21 /* EventsSectionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1132CD2A31B2410002CB21 /* EventsSectionItemView.swift */; };
+		DA1132D02A31B2720002CB21 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1132CF2A31B2720002CB21 /* Event.swift */; };
 		DAC82C862A29A7CE002C68CC /* CafeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82C852A29A7CE002C68CC /* CafeAppApp.swift */; };
 		DAC82C882A29A7CE002C68CC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82C872A29A7CE002C68CC /* MainTabView.swift */; };
 		DAC82C8A2A29A7CF002C68CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC82C892A29A7CF002C68CC /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		DA1132C92A31AFFE0002CB21 /* MenuSuggestionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSuggestionSectionView.swift; sourceTree = "<group>"; };
 		DA1132CB2A31B05E0002CB21 /* CoffeeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenu.swift; sourceTree = "<group>"; };
+		DA1132CD2A31B2410002CB21 /* EventsSectionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsSectionItemView.swift; sourceTree = "<group>"; };
+		DA1132CF2A31B2720002CB21 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DAC82C822A29A7CE002C68CC /* CafeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC82C852A29A7CE002C68CC /* CafeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAppApp.swift; sourceTree = "<group>"; };
 		DAC82C872A29A7CE002C68CC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 			children = (
 				DAC82C852A29A7CE002C68CC /* CafeAppApp.swift */,
 				DA1132CB2A31B05E0002CB21 /* CoffeeMenu.swift */,
+				DA1132CF2A31B2720002CB21 /* Event.swift */,
 				DAC82CAF2A29B002002C68CC /* Screens */,
 				DAC82C892A29A7CF002C68CC /* Assets.xcassets */,
 				DAC82C8B2A29A7CF002C68CC /* Preview Content */,
@@ -157,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				DA1132C92A31AFFE0002CB21 /* MenuSuggestionSectionView.swift */,
+				DA1132CD2A31B2410002CB21 /* EventsSectionItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -300,8 +306,10 @@
 			files = (
 				DAC82CB52A29B048002C68CC /* Tab.swift in Sources */,
 				DAC82C882A29A7CE002C68CC /* MainTabView.swift in Sources */,
+				DA1132CE2A31B2410002CB21 /* EventsSectionItemView.swift in Sources */,
 				DA1132CC2A31B05E0002CB21 /* CoffeeMenu.swift in Sources */,
 				DAC82C862A29A7CE002C68CC /* CafeAppApp.swift in Sources */,
+				DA1132D02A31B2720002CB21 /* Event.swift in Sources */,
 				DA1132CA2A31AFFE0002CB21 /* MenuSuggestionSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
