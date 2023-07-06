@@ -15,6 +15,9 @@
 		DA599E1C2A3334EF00F65FEC /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA599E1B2A3334EF00F65FEC /* HomeHeaderView.swift */; };
 		DA5F0CCD2A565A41009C4CCF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F0CCC2A565A41009C4CCF /* User.swift */; };
 		DA5F0CCF2A565AD7009C4CCF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F0CCE2A565AD7009C4CCF /* HomeViewModel.swift */; };
+		DA5F0CD12A565CFA009C4CCF /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F0CD02A565CFA009C4CCF /* OtherView.swift */; };
+		DA5F0CD32A565D22009C4CCF /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F0CD22A565D22009C4CCF /* SettingMenu.swift */; };
+		DA5F0CD52A565D38009C4CCF /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F0CD42A565D38009C4CCF /* SettingView.swift */; };
 		DAC82C862A29A7CE002C68CC /* CafeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82C852A29A7CE002C68CC /* CafeAppApp.swift */; };
 		DAC82C882A29A7CE002C68CC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC82C872A29A7CE002C68CC /* MainTabView.swift */; };
 		DAC82C8A2A29A7CF002C68CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC82C892A29A7CF002C68CC /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 		DA599E1B2A3334EF00F65FEC /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		DA5F0CCC2A565A41009C4CCF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DA5F0CCE2A565AD7009C4CCF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DA5F0CD02A565CFA009C4CCF /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		DA5F0CD22A565D22009C4CCF /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
+		DA5F0CD42A565D38009C4CCF /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		DAC82C822A29A7CE002C68CC /* CafeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC82C852A29A7CE002C68CC /* CafeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAppApp.swift; sourceTree = "<group>"; };
 		DAC82C872A29A7CE002C68CC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -182,6 +188,9 @@
 		DAC82CB22A29B023002C68CC /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				DA5F0CD02A565CFA009C4CCF /* OtherView.swift */,
+				DA5F0CD22A565D22009C4CCF /* SettingMenu.swift */,
+				DA5F0CD42A565D38009C4CCF /* SettingView.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -319,6 +328,7 @@
 				DAC82CB52A29B048002C68CC /* Tab.swift in Sources */,
 				DA5F0CCF2A565AD7009C4CCF /* HomeViewModel.swift in Sources */,
 				DAC82C882A29A7CE002C68CC /* MainTabView.swift in Sources */,
+				DA5F0CD52A565D38009C4CCF /* SettingView.swift in Sources */,
 				DA1132CE2A31B2410002CB21 /* EventsSectionView.swift in Sources */,
 				DA599E1C2A3334EF00F65FEC /* HomeHeaderView.swift in Sources */,
 				DA1132CC2A31B05E0002CB21 /* CoffeeMenu.swift in Sources */,
@@ -326,7 +336,9 @@
 				DA599E1A2A33344300F65FEC /* HomeView.swift in Sources */,
 				DA5F0CCD2A565A41009C4CCF /* User.swift in Sources */,
 				DA1132D02A31B2720002CB21 /* Event.swift in Sources */,
+				DA5F0CD32A565D22009C4CCF /* SettingMenu.swift in Sources */,
 				DA1132CA2A31AFFE0002CB21 /* MenuSuggestionSectionView.swift in Sources */,
+				DA5F0CD12A565CFA009C4CCF /* OtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
