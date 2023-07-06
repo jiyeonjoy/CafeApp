@@ -8,18 +8,20 @@
 import SwiftUI
 
 struct HomeHeaderView: View {
+    @Binding var isNeedToReload: Bool
+
     var body: some View {
         VStack(spacing: 16.0) {
             HStack(alignment: .top) {
                 Text("""
-                조이님~
+                \(User.shared.username)님~
                 반갑습니다! ☕️
                 """)
                     .font(.largeTitle)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .fixedSize(horizontal: false, vertical: true)
                 Button(action: {
-                    true
+                    isNeedToReload = true
                 }, label: {
                     Image(systemName: "arrow.2.circlepath")
                 })

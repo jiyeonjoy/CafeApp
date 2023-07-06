@@ -1,5 +1,5 @@
 //
-//  EventsSectionItemView.swift
+//  EventsSectionView.swift
 //  CafeApp
 //
 //  Created by 최지연/클라이언트 on 2023/06/08.
@@ -8,15 +8,28 @@
 import SwiftUI
 
 struct EventsSectionView: View {
+    @Binding var events: [Event]
+
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            LazyHStack(spacing: 16.0) {
-                ForEach(Event.sample) { event in
-                    EventsSectionItemView(event: event)
-                }
+        VStack {
+            HStack {
+                Text("Events")
+                    .font(.headline)
+                Spacer()
+                Button("See all") {}
+                    .accentColor(.green)
+                    .font(.subheadline)
             }
-            .frame(maxWidth: .infinity, minHeight: 220, maxHeight: .infinity)
             .padding(.horizontal, 16.0)
+            ScrollView(.horizontal, showsIndicators: false) {
+                LazyHStack(spacing: 16.0) {
+                    ForEach(events) { event in
+                        EventsSectionItemView(event: event)
+                    }
+                }
+                .frame(maxWidth: .infinity, minHeight: 220, maxHeight: .infinity)
+                .padding(.horizontal, 16.0)
+            }
         }
     }
 }
@@ -39,11 +52,5 @@ struct EventsSectionItemView: View {
                 .font(.callout)
                 .frame(maxWidth: .infinity, alignment: .topLeading)
         }.frame(width: UIScreen.main.bounds.width - 32.0)
-    }
-}
-
-struct EventsSectionView_Previews: PreviewProvider {
-    static var previews: some View {
-        EventsSectionView()
     }
 }

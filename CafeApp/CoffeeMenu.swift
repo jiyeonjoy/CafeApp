@@ -12,13 +12,4 @@ struct CoffeeMenu: Identifiable {
     let name: String
 
     let id = UUID()
-    
-    static let sample: [CoffeeMenu] = [
-        CoffeeMenu(image: Image("coffee"), name: "아이스 아메리카노"),
-        CoffeeMenu(image: Image("coffee"), name: "아이스 라떼"),
-        CoffeeMenu(image: Image("coffee"), name: "아이스 아메리카노"),
-        CoffeeMenu(image: Image("coffee"), name: "아이스 라떼"),
-        CoffeeMenu(image: Image("coffee"), name: "아이스 아메리카노"),
-        CoffeeMenu(image: Image("coffee"), name: "아이스 라떼"),
-    ]
 }
