@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CoffeeMenu: Identifiable {
     let image: Image // UIImage
-    let name: String
+    let name: String // name
 
     let id = UUID()
 }
