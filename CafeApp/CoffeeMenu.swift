@@ -11,5 +11,6 @@ struct CoffeeMenu: Identifiable {
     let image: Image // UIImage
     let name: String // name
 
+    // commit test
     let id = UUID()
 }
