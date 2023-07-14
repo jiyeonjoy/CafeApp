@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct CoffeeMenu: Identifiable {
+struct CoffeeMenu: Identifiable
+    // merge test
     let image: Image // UIImage
     let name: String // name
 
